@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Read"
+  short_description: "Read PDF files safely with metadata checks and page-scoped analysis"
+  default_prompt: "Inspect this PDF, verify metadata, detect whether it is text or scan, choose a safe page-scoped reading plan, and return only page-grounded results."

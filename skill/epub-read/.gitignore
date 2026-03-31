@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.pytest_cache/
+.mypy_cache/
+.epub_read_output/

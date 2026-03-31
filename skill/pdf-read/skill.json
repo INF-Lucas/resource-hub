@@ -1,0 +1,47 @@
+{
+  "name": "PDF Read",
+  "slug": "pdf-read",
+  "version": "1.0.0",
+  "title_en": "PDF Read",
+  "description": "Read, analyze, extract, or summarize PDF files with metadata verification, type detection, chunked reading, and failure-transparent workflows.",
+  "author": "Lucas",
+  "language": "zh",
+  "category": "productivity",
+  "tags": [
+    "pdf",
+    "reading",
+    "analysis",
+    "extraction",
+    "ocr",
+    "document"
+  ],
+  "positioning": "Treat PDF reading as a metadata-verified, page-scoped workflow instead of a one-shot guess.",
+  "core_value": "Help users read PDFs safely with verified metadata, explicit scope, and transparent failure handling.",
+  "differentiation": [
+    "Verifies metadata before reading content",
+    "Separates text PDFs from scanned PDFs before extraction",
+    "Uses chunked page ranges for medium and large files",
+    "Stops on failures instead of fabricating details",
+    "Treats OCR as opt-in and sample-validated",
+    "Keeps outputs grounded in processed pages only"
+  ],
+  "input_types": [
+    "pdf_file"
+  ],
+  "output_types": [
+    "metadata_report",
+    "reading_plan",
+    "page_scoped_summary",
+    "structured_extraction"
+  ],
+  "scenarios": [
+    "quick PDF overview",
+    "page-range reading",
+    "targeted extraction",
+    "scan OCR triage",
+    "batch PDF handling"
+  ],
+  "entry": "SKILL.md",
+  "readme": "README.md",
+  "license": "MIT"
+}
